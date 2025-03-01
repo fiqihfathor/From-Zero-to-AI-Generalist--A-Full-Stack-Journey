@@ -1,0 +1,57 @@
+repo_name : fiqihfathor/From-Zero-to-AI-Generalist--A-Full-Stack-Journey
+repo_url : https://github.com/fiqihfathor/From-Zero-to-AI-Generalist--A-Full-Stack-Journey
+site_name : From Zero to AI Generalist - A Full Stack Journey
+site_url : https://fiqihfathor.github.io/From-Zero-to-AI-Generalist--A-Full-Stack-Journey
+
+theme :
+  name: material
+
+  icon :
+    repo: fontawesome/brands/github
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: blue grey
+      scheme: light
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: blue grey
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+  
+extra_css:
+  - stylesheets/extra.css
+  
+markdown_extensions:
+  - admonition
+    - attr_list
+    - pymdownx.blocks.caption
+    - pymdownx.highlight:
+        linenums: true
+    - pymdownx.keys
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+
+nav:
+  - Home: index.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      url: https://github.com/fiqihfathor
+    - icon: fontawesome/brands/linkedin
+      url: https://www.linkedin.com/in/fiqih-fathor-rachim
+
+copyright : Copyright &copy; 2025 Fiqih Fathor Rachim
